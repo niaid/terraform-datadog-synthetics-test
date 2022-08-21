@@ -97,15 +97,15 @@ While writing your test(s) like this is perfectly valid, it's not really where t
     "test_frequency_in_sec": 120,
     "locations": ["aws:us-east-1"]
   },
-  "https://example1.org": {
+  "https://google.com": {
     "test_frequency_in_sec": 60,
     "locations": ["aws:us-east-2"]
   },
-  "https://example2.org": {
+  "https://amazon.com": {
     "test_frequency_in_sec": 180,
     "locations": [
       "aws:us-east-1",
-      "aws:us-east-2",
+      "aws:us-east-2"
     ]
   }
 }
