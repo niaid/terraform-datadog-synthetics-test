@@ -1,4 +1,4 @@
-# Terraform Module for Setting up Datadog Synthetics Test(s) (WIP)
+# Terraform Module for Setting up Datadog Synthetics Test(s)
 
 This module is used to create, manage, and update [Datadog's Synethentics Test](https://docs.datadoghq.com/synthetics/).  The primary use-case for this module as envisioned by its authors is the ability to just pass in structured data (JSON, YAML, HCL maps, etc.) to create tests, instead of requiring Terraform.  This is useful if want users who dont know Terraform, third-party remote systems via an API, etc. to return information that you can then turn into tests.
 
